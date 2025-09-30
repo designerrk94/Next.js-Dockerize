@@ -34,6 +34,6 @@ jobs:
 
     - name: Push Docker image
       run: |
-        docker tag my-next-app YOUR_DOCKERHUB_USERNAME/my-next-app:latest
-        docker push YOUR_DOCKERHUB_USERNAME/my-next-app:latest
+        docker tag my-next-app rabailk/my-next-app:latest
+        docker push rabailk/my-next-app:latest
 
