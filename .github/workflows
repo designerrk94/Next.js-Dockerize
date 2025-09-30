@@ -20,10 +20,10 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build Next.js app
+    - name: sudo Build Next.js app
       run: npm run build
 
-    - name: Build Docker image
+    - name: sudo Build Docker image
       run: docker build -t my-next-app .
 
     - name: Log in to Docker Hub
